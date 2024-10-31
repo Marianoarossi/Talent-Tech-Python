@@ -31,7 +31,7 @@ while True: #Ingresa al menú
         else:
             producto = [nombre, cantidad]
             productos.append(producto)
-            print("Producto agregado al productos.")
+            print("Producto agregado al Inventario.")
 
     elif opcion == "2": # Consultar un producto
         #Llamada a la función ConsultarProducto()
